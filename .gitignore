@@ -1,0 +1,45 @@
+# Node modules (ignore everywhere)
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+.env.* 
+*.env
+
+# Build output
+/build
+/dist
+
+# Testing
+/coverage
+
+# Misc
+.pnp
+.pnp.js
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore uploads and output folders (customize as needed)
+back/uploads/
+back/hls_output/
+back/uploads/video
+
+# Ignore local environment files in front and back
+front/.env*
+back/.env*
+
+.claude
