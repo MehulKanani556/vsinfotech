@@ -22,8 +22,9 @@ const Home = () => {
             </div>
             <div className="lg:w-1/2 w-full lg:px-[50px] px-5">
               <div className='text-white'>
-                <h3 className='text-white text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] mt-4' data-aos="fade-left">Showcasing our latest achievements during industry gatherings</h3>
-                <p className='mt-5' data-aos="fade-left">Throughout the year, we engage with the AI community via a wide range of virtual, in-person, and hybrid events—participating as sponsors or hosting these gatherings ourselves. At these forums, our engineers and researchers highlight our newest product innovations, research achievements, and publications.</p>
+                <h3 className='text-white text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] mt-4' data-aos="fade-left">We interact with the <span className='text-themedark'>AI community</span></h3>
+                <p className=' pt-4' data-aos="fade-left">Over the course of the year through a variety of online, live, and hybrid events, either as sponsors or as hosts. </p>
+                <p className='mt-5' data-aos="fade-left">Our engineers and researchers showcase our most recent publications, research accomplishments, and product breakthroughs at these forums.</p>
               </div>
             </div>
           </div>

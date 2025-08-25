@@ -205,8 +205,8 @@ const Career = () => {
     <div className='overflow-hidden'>
     <section className="bg-black text-white" data-aos="zoom-in" data-aos-duration="3000">
         <div className="container mx-auto sm:!px-6 !px-4 py-12 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Come <span className='text-themedark'>Work</span> With Us</h1>
-            <p className="text-lg max-w-2xl mx-auto">Help shape the future alongside a dedicated team. We're seeking driven individuals to grow and innovate together.</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Join in our group to <span className='text-themedark'>Work</span></h1>
+            <p className="text-lg max-w-2xl mx-auto">Join a group of people that help in changing future. We are looking to add people in commit and motivate them to develop</p>
         </div>
     </section>
 
@@ -216,13 +216,13 @@ const Career = () => {
                 <img src={career} alt="Team" className="rounded-2xl shadow-2xl w-full" style={{ boxShadow: "0 15px 35px rgba(0,0,0,0.6)" }}/>
             </div>
             <div className="flex-1" data-aos="zoom-in" data-aos-duration="3000">
-                <h2 className="text-3xl font-semibold mb-4">Why Become a Member of Our Team?</h2>
-                <p className="mb-6 text-gray-300">We create a warm, accepting environment where originality and creativity can thrive. We are dedicated to supporting our employees' success at every level by providing them with flexible work arrangements and ongoing assistance for their professional development.</p>
+                <h2 className="text-3xl font-semibold mb-4">What Makes You Join Our Team?</h2>
+                <p className="mb-6 text-gray-300">We create a welcoming atmostphere that inspire uniqueness, originality and personal identity. By providing flexible work time-table and continuos support for there proffessional growth, We try to give our employees get success in an fronts.</p>
                 <ul className="space-y-3 text-lg">
-                    <li className="flex items-center gap-2"><GiCheckMark /> A culture based on cooperation and teamwork</li>
-                    <li className="flex items-center gap-2"><GiCheckMark /> Schedule flexibility to accommodate your lifestyle</li>
-                    <li className="flex items-center gap-2"><GiCheckMark /> Workplace that is conducive to remote work</li>
-                    <li className="flex items-center gap-2"><GiCheckMark /> Unambiguous learning and professional advancement pathways</li>
+                    <li className="flex items-center gap-2"><GiCheckMark /> A cooperative and team-oriented culture.</li>
+                    <li className="flex items-center gap-2"><GiCheckMark /> Flexibility in your schedule to fit your lifestyle.</li>
+                    <li className="flex items-center gap-2"><GiCheckMark /> An surrounding that support work lightly.</li>
+                    <li className="flex items-center gap-2"><GiCheckMark /> Make a clear way for education and carrer progression.</li>
                 </ul>
             </div>
         </div>
@@ -328,46 +328,46 @@ const Career = () => {
                 <p className="tracking-widest text-sm">[ OUR PRINCIPLES ]</p>
                 <h1 className="text-3xl md:text-[40px] font-semibold mt-2"> <span className='text-themedark'>Coding</span> ≥ ∀ x ∀ x</h1>
             </div>
-            <p className="md:max-w-lg w-full" data-aos="zoom-in" data-aos-duration="3000">We thrive on bold objectives, rapid execution, and a relentless drive to move fast. If you're eager to help build the future of AI models and products, we'd love to have you on board.</p>
+            <p className="md:max-w-lg w-full" data-aos="zoom-in" data-aos-duration="3000">We thrive on ambitious goals, quick decisions, and an unwavering will to get things done quickly. We'd love to have you on board if you're excited to contribute to the development of AI models and products in the future.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gx-8 mt-16 pt-2 sm:pt-12">
             {/* <div className="flex flex-col gap-12  "> */}
                 <div data-aos="zoom-in" data-aos-duration="3000" className='md:border-r  text-white border-gray-800 pr-8 p-4'>
                     <div className="text-2xl mb-7"><FaRegUser className='text-3xl' /></div>
-                    <h3 className="font-semibold text-lg mb-4">Attractive Compensation</h3>
-                    <p className="text-gray-400 text-md mt-1">We offer competitive salary and equity packages designed to attract and retain the best talent in the industry.</p>
+                    <h3 className="font-semibold text-lg mb-4">Appealing Salary</h3>
+                    <p className="text-gray-400 text-md mt-1">In order to draw in and keep the top individuals in the business, we provide attractive stock and compensation packages.</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="3000" className='md:border-r  text-white border-gray-800 pr-8  p-4'>
                     <div className="text-2xl mb-7"><IoCalendarOutline className='text-3xl' /></div>
-                    <h3 className="font-semibold text-lg mb-4">Flexible Time Off</h3>
-                    <p className="text-gray-400 text-md mt-1">	We believe in a healthy work-life balance. Take the time you need to recharge — no burnout here.</p>
+                    <h3 className="font-semibold text-lg mb-4">Adaptable Vacation Time</h3>
+                    <p className="text-gray-400 text-md mt-1">	We support a good work-life balance. We don't want burnout, so take the time you need to rest.</p>
                 </div>
             {/* </div> */}
 
             {/* <div className="flex flex-col gap-12 md:border-r text-white border-gray-800 pr-8"> */}
                 <div data-aos="zoom-in" data-aos-duration="3000" className='p-4 text-white'>
                     <div className="text-2xl mb-7"><LuStethoscope className='text-3xl' /></div>
-                    <h3 className="font-semibold text-lg mb-4">Health & Wellness</h3>
-                    <p className="text-gray-400 text-md mt-1">We provide extensive health coverage, including medical, dental, vision, and disability insurance to support your overall well-being.</p>
+                    <h3 className="font-semibold text-lg mb-4">Wellness & Health</h3>
+                    <p className="text-gray-400 text-md mt-1">To promote your general well-being, we offer comprehensive health coverage, including dental, vision, medical, and disability insurance.</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="3000" className='md:border-r  text-white border-gray-800 pr-8 p-4'>
                     <div className="text-2xl mb-7"><TbWorld className='text-3xl' /></div>
                     <h3 className="font-semibold text-lg mb-4">Visa Support</h3>
-                    <p className="text-gray-400 text-md mt-1">We welcome global talent and offer visa sponsorship to help you become part of our team.</p>
+                    <p className="text-gray-400 text-md mt-1">Visa Support To help you join our team, we welcome talent from around the world and provide visa sponsorship.</p>
                 </div>
             {/* </div> */}
 
             {/* <div className="flex flex-col gap-12 text-white"> */}
                 <div data-aos="zoom-in" data-aos-duration="3000" className='md:border-r  text-white border-gray-800 pr-8 p-4'>
                     <div className="text-2xl mb-7"><GiSelfLove className='text-3xl' /></div>
-                    <h3 className="font-semibold text-lg mb-4">	Life & Family Support	</h3>
-                    <p className="text-gray-400 text-md mt-1">Our benefits include life and AD&D insurance as well as fertility support, ensuring peace of mind for you and your loved ones.</p>
+                    <h3 className="font-semibold text-lg mb-4">Support for Life and Family</h3>
+                    <p className="text-gray-400 text-md mt-1">Our benefits, which provide you and your loved ones with peace of mind, include fertility support, life and AD&D insurance, and more.</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="3000" className='text-white p-4' >
                     <div className="text-2xl mb-7"><FaRegClock className='text-3xl' /></div>
-                    <h3 className="font-semibold text-lg mb-4">Retirement Planning</h3>
-                    <p className="text-gray-400 text-md mt-1">	Our 401(k) plan helps you prepare for a secure and comfortable financial future.				</p>
+                    <h3 className="font-semibold text-lg mb-4">Planning for Retirement</h3>
+                    <p className="text-gray-400 text-md mt-1">Our 401(k) plan assists you in getting ready for a healthy and safe financial future.</p>
                 </div>
             {/* </div> */}
         </div>

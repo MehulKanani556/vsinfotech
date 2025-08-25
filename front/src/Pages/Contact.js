@@ -134,8 +134,8 @@ const Contact = () => {
             <div className='flex flex-col gap-12 md:border-r border-gray-800 pr-8 flex-1'>
               <div className="text-2xl"><FaRegComment className="text-4xl" /></div>
               <div>
-                <h2 className="text-xl font-normal mb-4">Contact Product Support</h2>
-                <p className="text-[#7D8187] text-md mb-4">For everything you need to know about Grok and our offerings.</p>
+                <h2 className="text-xl font-normal mb-4">Get in touch to product support</h2>
+                <p className="text-[#7D8187] text-md mb-4">For all of your questions concerning Grok and our products, get in touch with Product Support.</p>
                 <div className="flex gap-3 mt-2 flex-wrap">
                   <button className="px-4 py-2 border border-gray-700 rounded-full text-md hover:bg-gray-800">EMAIL SUPPORT</button>
                   <button className="px-4 py-2 border border-gray-700 rounded-full text-md hover:bg-gray-800">CALL SUPPORT</button>
@@ -147,8 +147,8 @@ const Contact = () => {
             <div className="flex sm:w-1/2 w-full flex-col gap-12 md:pl-8 flex-1" data-aos="fade-up"  data-aos-duration="3000">
               <div className="text-2xl"><GiSelfLove className="text-4xl" /></div>
               <div>
-                <h2 className="text-xl font-normal mb-4">Contact Sales</h2>
-                <p className="text-[#7D8187] text-md mb-4">Learn how we can collaborate and build together.</p>
+                <h2 className="text-xl font-normal mb-4">Speak with Sales</h2>
+                <p className="text-[#7D8187] text-md mb-4">Find out how we can work together to build.</p>
                 <button className="px-4 py-2 border border-gray-700 rounded-full text-sm mt-2 hover:bg-gray-800">EMAIL SALES</button>
               </div>
             </div>
@@ -158,8 +158,8 @@ const Contact = () => {
   <div>
     <div className="h-full" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <div><img src={xAi} alt="" className="w-10 mb-4" /></div>
-      <h3 className="text-xl mt-2">Check out our official xAI account.</h3>
-      <p className="text-[#7D8187] text-md pt-4">Explore updates and insights directly from our xAI page.</p>
+      <h3 className="text-xl mt-2">Visit our official account on xAI.</h3>
+      <p className="text-[#7D8187] text-md pt-4">View news and analysis straight from our xAI page.</p>
     </div>
   </div>
 
@@ -167,8 +167,8 @@ const Contact = () => {
   <div>
     <div className="h-full" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <div><img src={grok} alt="" className="w-10 mb-4" /></div>
-      <h3 className="text-xl mt-2">Explore Grok on</h3>
-      <p className="text-[#7D8187] text-md pt-4">Head over to our official Grok account for the latest updates.</p>
+      <h3 className="text-xl mt-2">Investigate Grok on</h3>
+      <p className="text-[#7D8187] text-md pt-4">To see the most recent information, visit our official Grok account.</p>
     </div>
   </div>
 
@@ -176,8 +176,8 @@ const Contact = () => {
   <div>
     <div className="h-full" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
       <div><img src={joinGrok} alt="" className="w-10 h-10 mb-4" /></div>
-      <h3 className="text-xl mt-2">Connect with Grok on Discord</h3>
-      <p className="text-[#7D8187] text-md pt-4">Join our official Grok Discord community to stay engaged.</p>
+      <h3 className="text-xl mt-2">Get in touch with Grok via Discord</h3>
+      <p className="text-[#7D8187] text-md pt-4">To keep involved, join our official Grok Discord community.</p>
     </div>
   </div>
 

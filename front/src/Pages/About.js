@@ -25,17 +25,17 @@ const About = () => {
     {
       title: "Sincerity",
       content:
-        "Our belief is that AI’s latest advances should be publicly shared, enabling the community to learn and extend them.",
+        "We think that the most recent developments in AI should be made available to the public so that others can benefit from and build upon them.",
     },
     {
       title: "Collaboration",
       content:
-        "We engage in transparent collaboration with both internal teams and external partners to exchange knowledge and foster a variety of viewpoints and requirements.",
+        "To share expertise and encourage a range of needs and perspectives, we work openly and honestly with both internal teams and outside partners.",
     },
     {
       title: "Superiority",
       content:
-        "The realm of AI offers an abundance of emerging opportunities. Our researchers dedicate themselves to initiatives they believe will most positively influence individuals and communities, whereas our engineers strive to implement significant enhancements in products and experiences accessible to everyone.",
+        "There are many new opportunities in the field of artificial intelligence. While our engineers work to make major improvements to products and experiences that are available to all, our researchers focus on projects that they feel will have the greatest positive impact on people and communities.",
     },
     {
       title: "Scale",
@@ -114,8 +114,8 @@ const About = () => {
           </p>
           <TextType
             text={[
-              "Build AI responsibly to benefit humanity",
-              "Create ethical AI that benefits all humanity.",
+              "Develop AI responsibly for the good of humanity.",
+              "Develop moral AI for the good of all people.",
             ]}
             typingSpeed={75}
             pauseDuration={1000}
@@ -150,8 +150,8 @@ const About = () => {
               <div className="container mx-auto">
                  <div className='text-white text-center'>
                     <p>People and culture</p>
-                    <h3 className="text-white text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] leading-[28px] mt-4">The freedom to  <span className='text-themedark'>innovate, experiment, </span> <br /> and <span className='text-themedark'>scale AI</span> solutions </h3>
-                    <p className='sm:text-[20px] text-[18px] sm:mt-11 mt-5'>At Meta, our work is guided by a core set of principles:</p>
+                    <h3 className="text-white text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] leading-[28px] mt-4">The liberty to  <span className='text-themedark'>develop, test, </span> <br /> and <span className='text-themedark'>expand AI </span> solutions </h3>
+                    <p className='sm:text-[20px] text-[18px] sm:mt-11 mt-5'>A basic set of principles governs activity at Meta</p>
                  </div>
                   <div className="flex justify-center mt-5">
                      <div className="2xl:w-4/5 w-full">
@@ -200,7 +200,7 @@ const About = () => {
                              </div>
                              <div className="lg:w-1/2 w-full lg:px-[50px] px-5">
                                 <div className='text-white'>
-                                    <h3 className='text-white text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] mt-4' data-aos="fade-left">Showcasing our latest achievements during industry gatherings</h3>
+                                    <h3 className='text-white text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] mt-4' data-aos="fade-left">Showcasing our <span className='text-themedark'> latest achievements </span> during industry gatherings</h3>
                                     <p className='mt-5' data-aos="fade-left">Throughout the year, we engage with the AI community via a wide range of virtual, in-person, and hybrid events—participating as sponsors or hosting these gatherings ourselves. At these forums, our engineers and researchers highlight our newest product innovations, research achievements, and publications.</p>
                                 </div>
                              </div>

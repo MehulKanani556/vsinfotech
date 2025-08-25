@@ -15,27 +15,27 @@ const accordionData = [
     {
       title: "Llama",
       content:
-        "It’s a series of open-source AI language models developed by Meta. These models are designed to understand and generate human-like text, similar to how ChatGPT works. Llama is used in a variety of applications such as: Text generation, Code completion, Language translation",
+        "Meta created a set of open-source AI language models. Like ChatGPT, these models are made to comprehend and produce writing that appears human. Numerous applications employ Llama, including text generating, code completion, Translation of languages",
     },
     {
-      title: "Meta Quest",
+      title: "The Meta Quest",
       content:
-        "Our Meta Quest headsets push virtual reality beyond gaming, opening up new possibilities in education, travel, and more. These cutting-edge devices are at the forefront of innovation, advancing research in fields like computer vision, next-generation optics, and immersive VR experiences.",
+        "Our Meta Quest headsets expand virtual reality beyond gaming, creating new opportunities for travel, education, and other fields. These state-of-the-art gadgets are driving innovation in areas like immersive virtual reality, computer vision, and next-generation optics.",
     },
     {
-      title: "Ray-Ban Meta Glasses",
+      title: "The Meta Glasses by Ray-Ban",
       content:
-        "Our latest Ray-Ban Meta smart glasses bring AI to your everyday life — completely hands-free. Capture photos and videos, enjoy music, connect with friends, or livestream directly to social media. Designed for comfort and style, they offer outstanding audio and visual performance.",
+        "With our newest Ray-Ban Meta smart glasses, you can use AI hands-free in your daily life. Take pictures and videos, listen to music, chat with friends, or broadcast live to social media. They provide exceptional audio and visual performance and are stylish and comfortable.",
     },
     {
-      title: "AR Wearables",
+      title: "Wearables with AR",
       content:
-        "After nearly ten years of development, we've introduced our first prototype of AR glasses. Lightweight (under 100 grams), wireless, and featuring a wide field-of-view display, the device made its debut at Meta Connect 2024. Ongoing testing will guide the evolution of future consumer-ready AR glasses.",
+        "We've unveiled our first AR glasses prototype after over a decade of development. It was wireless, lightweight, and had a wide field of vision display. The development of future consumer-ready AR glasses will be guided by ongoing testing.",
     },
     {
         title: "AI Studio",
         content:
-          "AI Studio is an easy-to-use tool that enables individuals and businesses — even without coding skills — to create personalized AI chatbots for platforms such as Messenger, Instagram, and Facebook. It offers a scalable solution for using AI to drive engaging and effective interactions.",
+          "AI studio is an easy to use on any platform it allows one person or else a businesses man to use it , without coding, it will create personal custom ai chatbox for facebook, instragram, messenger. It is very useful it will help to do converstaion easily",
     },
   ];
 
@@ -76,8 +76,8 @@ useEffect(() => {
             <div className='container mx-auto py-12 sm:!px-6 !px-4'>
                <div className="flex justify-center" data-aos="zoom-in" data-aos-duration="3000">
                    <div className="3xl:w-1/3 lg:w-1/2  text-white">
-                      <h3 className="text-center text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] leading-[28px] mt-4">We Create <span className='text-themedark'>Extraordinary</span>  Experiences</h3> 
-                      <p className='text-center mt-4 sm:text-[16px] text-[14px]'>Our work goes beyond technology — it sparks wonder and connection. From our Llama open-source language models to cutting-edge VR devices and Ray-Ban Meta smart glasses, we're pushing boundaries and shaping how AI influences the metaverse.</p>
+                      <h3 className="text-center text-[22px] sm:text-[32px] md:text-[40px] lg:text-[40px] sm:leading-[48px] sx:leading-[28px] leading-[28px] mt-4">We Craft <span className='text-themedark'>Exceptional </span>Moments</h3> 
+                      <p className='text-center mt-4 sm:text-[16px] text-[14px]'>Our work inspires awe and connection that transcends technology. We're pushing the envelope and influencing how AI affects the metaverse with our Llama open-source language models, state-of-the-art virtual reality equipment, and Ray-Ban Meta smart glasses.</p>
                    </div>
                </div>
               <div className="flex justify-center pt-12">

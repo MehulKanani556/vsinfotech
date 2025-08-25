@@ -106,7 +106,7 @@ const Footer = () => {
           <a href='https://www.google.com/maps/place/855+King+St+E+%23210,+Cambridge,+ON+N3H+3P2,+Canada/@43.3946841,-80.3558498,826m/data=!3m2!1e3!4b1!4m5!3m4!1s0x882b89f0377066e3:0x13fe980777df8121!8m2!3d43.3946841!4d-80.3558498?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D' target='_blank' className=" text-gray-300 mb-3">855 King Street East, Unit 210 <br />Cambridge, ON, Canada (Branch)</a>
           <div className="flex items-center space-x-3 mt-3">
             <span className="text-white text-xl"><IoMdMail /></span>
-            <a href="mailto:info@vsinfotech.ca" className=" text-gray-200">info@vsinfotech.ca</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@vsinfotech.ca" target="_blank" className="text-gray-200 hover:text-blue-400">info@vsinfotech.ca</a>
           </div>
         </div>
       </div>
