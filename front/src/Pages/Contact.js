@@ -10,7 +10,7 @@ import AOS from "aos";
 import * as Yup from "yup";
 import { useFormik } from 'formik';
 import axios from 'axios';
-const serverUrl = 'http://localhost:4000'
+const serverUrl = 'https://api.vsinfotech.ca'
 const Contact = () => {
   useEffect(() => {
     function generateStars(count, size, duration) {
@@ -103,14 +103,18 @@ const Contact = () => {
       console.log(values);
 
       axios.post(`${serverUrl}/contactus`, {
-        firstName: values.firstname,
-        lastName: values.lastname,
-        workEmail: values.email,
-        subject : values.subject,
-        phoneNumber: values.num,
-        description: values.message,
-      })
-        .then((response) => {
+  firstName: values.firstname,
+  lastName: values.lastname,
+  workEmail: values.email,
+  subject: values.subject,
+  phoneNumber: values.num,
+  description: values.message,
+}, {
+  headers: {
+    "Content-Type": "application/json",
+  },
+  withCredentials: true,
+}).then((response) => {
           alert('Our team will contact you soon!');
           resetForm(); // <-- now works
         })
